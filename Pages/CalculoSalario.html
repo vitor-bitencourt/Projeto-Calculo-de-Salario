@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<meta charset ="UTF-8">
+
+
+<head>
+	<script src="../JavaScript/calculadora.js"></script>
+	
+	<link rel="stylesheet" type="text/css" href="../Style/estilo.css">
+</head>
+
+<body style="background-image:url(../Assets/dolar.jpg);">
+
+
+		
+		<form  method="get">
+				<div id="div1">	
+
+					<header>
+						<h1> Calcule seu salário </h1>
+					</header>
+					
+	
+				
+					<input type="text" name="nome"  placeholder="Digite seu nome" class="formulario">	
+					<br>
+					<br>
+					<input id="HT" type="text" name="horas"  placeholder="Horas de trabalho" class="formulario">
+					<br>
+					<br>
+					<input id="VH" type="text" name="valor_horas"  placeholder="Valor da hora de trabalho"class="formulario">
+					<br>
+					<br>
+					<input id="ND" type="text" name="dependentes"  placeholder="Quantidade de dependentes" class="formulario">
+					<br>
+					<br>
+					<input type="button" value="Enviar" onclick="calculate()" class="botão">
+					<br>
+					<br>
+						
+							
+							Salário Bruto
+							$:<input disabled="disabled" id="SB" type="text" class="formulario">
+							<br>
+							<br>
+							IRRF
+							$:<input disabled="disabled" id="VIR" type="text" class="formulario">
+							<br>
+							<br>
+							INSS
+							$:<input disabled="disabled" id="VIS" type="text"  class="formulario">
+							<br>
+							<br>
+							Salario Liquido
+							$:<input disabled="disabled" id="SL" type="text"  class="formulario">
+							<br>
+							<br>
+						
+					
+					
+				</form>
+					
+        
+		
+				</div>
+		
+		
+</body>
+</html>
