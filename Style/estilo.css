@@ -1,0 +1,57 @@
+h1{
+	color:#87CEEB;
+	font-family:arial;
+	font-size:40px;
+	text-align:center;
+}
+h2{
+	color:#000000;
+	font-family:arial;
+	font-size:10px;
+	text-align:auto;
+}
+#div1{
+	background-color:#A9A9A9;
+	width:50%;
+	border:#87CEEB solid 3px;
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:5%;
+	margin-bottom:5%;
+	height:90%;
+}
+.print{
+	background-color:#A9A9A9;
+	width:50%;
+	border:#87CEEB solid 3px;
+	margin-left:25%;
+	margin-right:25%;
+	margin-top:5%;
+	margin-bottom:5%;
+	height:90%;
+	
+}
+.formulario{
+	color:#000000;
+	font-family:arial;
+	font-size:25px;
+	text-align:center;
+	margin-left:25%;
+	margin-right:25%;
+	width:50%;
+	height:30%;
+}
+.botão{
+	color:#000000;
+	font-family:arial;
+	width:50%;
+	height:30%;
+	margin-left:25%; 
+	border:#87CEEB solid 3px;
+	height:30px;
+}
+background-image{
+	background-attachment:fixed; 
+	background-repeat:no-repeat; 
+	background-size:100%;
+}
